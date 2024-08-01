@@ -14,6 +14,6 @@ for ip in ip_list:
     try:
         print(ip + ": " + data["city"])
     except:
-        print(ip + ": INDIRIZZO PRIVATE")
+        print(ip + ": INDIRIZZO PRIVATO")
 
 x = input()
